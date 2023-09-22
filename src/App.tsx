@@ -19,26 +19,26 @@ const mediaList: MediaType[] = [
     subTitle: "Caminandes 3: Llamigos",
     preview: true,
   },
-  {
-    url: "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-    title: "HLS Stream Sample",
-    subTitle: "Tears of Steel",
-    preview:
-      "https://mango.blender.org/wp-content/gallery/4k-renders/06_barley.jpg",
-  },
-  {
-    title: "Dash Stream Sample",
-    subTitle: "Elephants Dream",
-    url: "https://rdmedia.bbc.co.uk/elephants_dream/1/client_manifest-all.mpd",
-    preview:
-      "https://orange.blender.org/wp-content/themes/orange/images/media/gallery/s1_proog.jpg",
-  },
+  // {
+  //   url: "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+  //   title: "HLS Stream Sample",
+  //   subTitle: "Tears of Steel",
+  //   preview:
+  //     "https://mango.blender.org/wp-content/gallery/4k-renders/06_barley.jpg",
+  // },
+  // {
+  //   title: "Dash Stream Sample",
+  //   subTitle: "Elephants Dream",
+  //   url: "https://rdmedia.bbc.co.uk/elephants_dream/1/client_manifest-all.mpd",
+  //   preview:
+  //     "https://orange.blender.org/wp-content/themes/orange/images/media/gallery/s1_proog.jpg",
+  // },
 ];
 
 function App() {
-  const actions = useTVPlayerStore((s) => s.actions);
-  const mediaIndex = useTVPlayerStore((s) => s.mediaIndex) || 0;
-  const likeToggle = useTVPlayerStore((s) => s.likeToggle);
+  const actions = useTVPlayerStore((s: { actions: any; }) => s.actions);
+  const mediaIndex = useTVPlayerStore((s: { mediaIndex: any; }) => s.mediaIndex) || 0;
+  const likeToggle = useTVPlayerStore((s: { likeToggle: any; }) => s.likeToggle);
 
   const customButtons: TVPlayerButtonProps[] = [
     { action: "loop", align: "left" },
@@ -53,7 +53,7 @@ function App() {
       label: "About",
       faIcon: faGithub,
       onPress: () => {
-        window.location.href = "https://github.com/lewhunt/react-tv-player";
+        window.location.href = "https://github.com/Lelegoyeng";
       },
     },
   ];
