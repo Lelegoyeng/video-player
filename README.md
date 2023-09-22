@@ -3,23 +3,8 @@
 </h1>
 
 <p align='center'>
-  <a href='https://www.npmjs.com/package/react-tv-player'>
-    <img src='https://img.shields.io/npm/v/react-tv-player.svg' alt='Latest npm version'>
-  </a>
-    <a href='https://github.com/lewhunt/react-tv-player/blob/main/LICENSE'>
-    <img src='https://img.shields.io/badge/License-MIT-yellow.svg' alt='MIT License'>
-  </a>
-    <a href='https://www.npmjs.com/package/react-tv-player'>
-    <img src='https://img.shields.io/npm/dm/react-tv-player.svg' alt='Monthly npm downloads'>
-  </a>
-
-</p>
-
-<p align='center'>
   A React media player component for TV devices, with customisable buttons and arrow key navigation. It can play a variety of URLs including file paths, YouTube, HLS and Dash streams.
 </p>
-
-[![https://lewhunt.github.io/react-tv-player/](https://repository-images.githubusercontent.com/688997852/cc39ebd0-f663-4715-b502-eccb06cc4e57)](https://lewhunt.github.io/react-tv-player/)
 
 ## Key Features
 
