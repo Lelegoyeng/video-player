@@ -21,8 +21,6 @@
 
 [![https://lewhunt.github.io/react-tv-player/](https://repository-images.githubusercontent.com/688997852/cc39ebd0-f663-4715-b502-eccb06cc4e57)](https://lewhunt.github.io/react-tv-player/)
 
-<p align='center'><i>Click on the image to try out the demo on a desktop browser</i>
-
 ## Key Features
 
 - <b>Versatility</b>: Customisable UI buttons, title metadata and preview images to suit your needs. It can effortlessly handle a variety of URLs, from file paths and HLS/DASH streams to services like YouTube and Vimeo.
@@ -55,8 +53,6 @@ function App() {
 }
 ```
 
-### [👉 Live Demo](https://lewhunt.github.io/react-tv-player/) (for desktop browsers)
-
 The <a href='https://lewhunt.github.io/react-tv-player/'>demo</a> source code <a href='https://github.com/lewhunt/react-tv-player/blob/main/src/App.tsx'>App.tsx</a> illustrates how the component can be initialised with with more props such as metadata, custom buttons, preview images and multiple media, enabling the user to cycle through videos with next/previous buttons and handle actions such as a Like button.
 
 ```jsx
@@ -70,10 +66,6 @@ The <a href='https://lewhunt.github.io/react-tv-player/'>demo</a> source code <a
   onLikePress={handleLike}
 />
 ```
-
-<p>Here is a short video of the <a title="view demo" href="https://lewhunt.github.io/react-tv-player/">demo</a> runnning on a browser:</p>
-
-https://github.com/lewhunt/react-tv-player/assets/9886284/7baa4b75-491b-49f3-8cf1-698ae7f55941
 
 ## Why Another Player?
 
@@ -235,5 +227,3 @@ Use the state's `player` reference - as in the above example - to call instance 
 | `getInternalPlayer()`  | Returns the internal player of whatever is currently playing<br />&nbsp; ◦ &nbsp;eg the [YouTube player instance](https://developers.google.com/youtube/iframe_api_reference#Loading_a_Video_Player), or the [`<video>`](https://developer.mozilla.org/en/docs/Web/HTML/Element/video) element when playing a video file<br />&nbsp; ◦ &nbsp;Use `getInternalPlayer('hls')` to get the [hls.js](https://github.com/video-dev/hls.js) player<br />&nbsp; ◦ &nbsp;Use `getInternalPlayer('dash')` to get the [dash.js](https://github.com/Dash-Industry-Forum/dash.js) player<br />&nbsp; ◦ &nbsp;Returns `null` if the internal player is unavailable |
 
 <hr />
-
-### [👉 Try out the Demo](https://lewhunt.github.io/react-tv-player/) (on TV and desktop browsers)
