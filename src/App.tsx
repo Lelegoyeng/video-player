@@ -2,9 +2,6 @@ import { TVPlayer, useTVPlayerStore, TVPlayerButtonProps } from "./lib";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./App.css";
 
-// locally testing built library
-//import { TVPlayer, useTVPlayerStore, TVPlayerButtonProps } from "./..";
-
 export type MediaType = {
   url: string | string[] | MediaStream;
   title?: string;
@@ -14,11 +11,12 @@ export type MediaType = {
 
 const mediaList: MediaType[] = [
   {
-    url: "https://www.youtube.com/watch?v=SkVqJ1SGeL0",
+    url: "https://www.youtube.com/watch?v=ao3U8jhnfoc",
     title: "YouTube Video Sample",
-    subTitle: "Caminandes 3: Llamigos",
-    preview: true,
+    subTitle: "Lelegoyeng",
+    // preview: true,
   },
+
   // {
   //   url: "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
   //   title: "HLS Stream Sample",
